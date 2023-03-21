@@ -1,0 +1,40 @@
+
+.bar__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.menu__fijo{
+    position: fixed;
+    z-index: 1;
+}
+.bar__nav--horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    gap: 5px;
+    
+}
+.mi-tienda{
+    font-size: 60px;
+    text-align: center;
+}
+.bar__nav--horizontal{
+    display: flex;
+    flex-direction: row;
+}
+.bar__nav--inferior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.divisor__header{
+    height: 2px;
+    background-color: rgb(10, 0, 0);
+    width: 100%;
+    margin-right: 25px;
+}
