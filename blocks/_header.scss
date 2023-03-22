@@ -6,9 +6,13 @@
     padding: 20px;
     font-family: sans-serif;
 }
+.naranja{
+    color: orangered;;
+}
 .menu__fijo{
     position: fixed;
     z-index: 1;
+    font-size: 30px;
 }
 .bar__nav--horizontal{
     display: flex;
@@ -16,11 +20,22 @@
     justify-content: space-between;
     padding-right: 10px;
     gap: 5px;
-    
+    font-size: 20px;
+}
+.negrita{
+    font-weight: bold;
+}
+.gris{
+    color: rgb(225, 220, 220);
+}
+.azul{
+    color: rgb(126, 194, 219);
+    font-weight: bold;
 }
 .mi-tienda{
     font-size: 60px;
     text-align: center;
+    padding-bottom: 20px;
 }
 .bar__nav--horizontal{
     display: flex;
@@ -31,10 +46,16 @@
     flex-direction: row;
     justify-content: space-between;
     padding-right: 10px;
+    padding-top: 30px;
+    gap: 25px;
+}
+.bar__nav--buscar{
+    font-size: 20px;
 }
 .divisor__header{
-    height: 2px;
+    height: 3px;
     background-color: rgb(10, 0, 0);
     width: 100%;
     margin-right: 25px;
+    margin-top: 10px;
 }

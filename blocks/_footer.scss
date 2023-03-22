@@ -3,10 +3,32 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 3%;
+    
+}
+.bar__nav--buscar{
+   
 }
 .divisor--final{
-    height: 1px;
-    background-color: #f7f2f2;
+    height: 2px;
+    background-color: #f0ecec;
     width: 100%;
     margin: 50px 0 50px 0;
+}
+.footer__arriba, .color__footer, .footer__abajo{
+    color: rgb(119, 115, 115);
+}
+.espacio__final {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.footer__arriba img{
+    height: 16px;
+    width: 16px;
+}
+.footer__arriba {
+    display: flex;
+    align-items: flex-start;
+}
+.footer__abajo{
+    text-align: center;
 }
